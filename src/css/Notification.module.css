@@ -1,0 +1,20 @@
+.notification {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 3px;
+  padding: 10px 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.notification__text {
+  font-size: 13px;
+  color: rgba(55, 55, 55, 0.688);
+}
+
+svg {
+  width: 16px;
+  height: 16px;
+}

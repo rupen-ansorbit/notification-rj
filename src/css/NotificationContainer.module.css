@@ -1,0 +1,45 @@
+.hello {
+  background: white;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+}
+
+.app_top-right {
+  top: 0;
+  right: 0;
+}
+
+.app_bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.app_bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.app_top-left {
+  top: 0;
+  left: 0;
+}
+
+.app_top-center {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.app_bottom-center {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
